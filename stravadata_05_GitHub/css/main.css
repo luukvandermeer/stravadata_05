@@ -1,0 +1,233 @@
+h1 {
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 134.5%;
+  letter-spacing: 0.15em;
+  color: #5D0100;
+/*color: #450101;*/
+  margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+h2 {
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6px;
+  line-height: 100%;
+  color: #5D0100;
+  margin: -5px 0px 0px 0px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-family: PT Mono;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 100%;
+  color: #5D0100;
+  margin: -5px 0px 25px 0px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 100%;
+  color: #55546E;
+  margin: 4px 0px 0px 4px;
+}
+
+h5 {
+  font-family: PT Sans;
+  font-weight: normal;
+  font-size: 6px;
+  line-height: 100%;
+  /* display: flex; */
+  /* align-items: flex-end; */
+    color: #5D0100;
+  margin: 4px 0px 4px 4px;
+}
+
+h6 {
+  font-family: FilmotypeGiant;
+  font-weight: 300;
+  /* font-size: 150px;   */
+  /* line-height: 100%; */
+  letter-spacing: -0.02em;
+  color: #55546E;
+  margin: 0px 0px -15px 0px;
+  }
+
+li{
+  list-style-type: none; 
+  font-family: PT Mono;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 10px;
+  line-height: 100%;
+  color: #5D0100;
+  margin: 8px 0px 8px 0px;
+
+  text-align: left;
+/*  position: relative;*/
+  /* text-transform: uppercase; */
+
+}
+
+svg {
+  background: #F4E7E0;
+/*  background: #EFDCD3;*/
+}
+
+#elevationProfileII {
+  background: #ffffff;
+}
+
+path {
+/*  fill: #000000;*/
+/*  stroke: #5D0100;*/
+  /* stroke-width: 12; */
+  border-top: 5px dotted red;
+}
+
+text{
+  font-family: PT Mono;
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 6px;
+  line-height: 100%;
+/*  color: #5D0100 !important;*/
+  color: #5D0100;
+  margin: 8px 0px 8px 0px;
+    top: 50%;
+  left: 50%;
+  text-transform: uppercase; 
+}
+
+/*
+.rotate {
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
+*/
+/*body {
+    display: table-cell;
+    vertical-align: middle;
+
+}*/
+
+/*body {
+  background-color: #AFB8C7;
+  width: 100%;
+/*  height: 100%;*/
+
+
+#container {
+  display: grid;
+  background: #ffffff;
+  grid-template-areas:
+    "header header header header"
+    "chart chart chart chart"
+    "content content content content"
+    "footer footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20px 550px 240px 20px;
+  grid-gap: 1px;
+  max-width: 555px;
+  margin: auto;
+margin-top: 50px;
+  padding: 0px 20px 0px 20px;
+  grid-auto-flow: row;
+  stroke-width: 1px;
+/*  stroke*/
+}
+
+header {
+  grid-row: header;
+  grid-column: header;
+  padding-top: 20px;
+}
+
+section {
+  grid-row: chart;
+  grid-column: chart;
+  max-width: 555px;
+  margin: 5px 0px 0px 0px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  column-count: 1;
+  column-gap: 1em;
+  width: 555px;
+  margin: -0em 0 0 0;
+  transform: scale(0.8);
+/*  align-content: center;*/
+}
+
+footer {
+  grid-row: footer;
+  grid-column: footer;
+  text-align: right;
+  max-width: 555px;
+}
+
+
+#metricday{
+  align-content: center;
+}
+
+
+.area{
+  fill: #ffffff;
+/*  stroke: #5D0100;*/
+  stroke-width: 0px;
+
+}
+
+.breakLine {
+  stroke-width: .3px;
+  border: .3px dotted #5D0100; */
+}
+
+
+
+.chart {
+  position: relative;
+}
+
+.stageIndicator{
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: bold; 
+  font-size: 6px;
+  line-height: 100%;
+}
+
+/*  color: #5D0100 !important;*/
+.legend{
+  font-family: PT Mono;
+
+  font-style: normal;
+  font-size: 3px;
+  line-height: 100%;
+}
+
+
+.stageIndicatorDetails, .climbText{
+  font-family: PT Mono;
+  font-style: normal;
+  font-size: 4px;
+  line-height: 100%;
+  color: #5D0100;
+}
+
